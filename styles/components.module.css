@@ -1,0 +1,92 @@
+.font {
+    width: 120px;
+}
+
+.list:hover {
+    backdrop-filter: blur(13px);
+    background-color: rgba(56, 63, 77, 0.1);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.bannerheading {
+    font-weight: 500;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bannerdescription {
+    font-weight: 500;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(-50%,-20%);
+}
+
+.bannerpagedescription {
+    font-weight: 500;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(-50%,-15%);
+}
+
+.bannerbutton {
+    font-weight: 500;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(-50%,-80%);
+}
+
+.demo {
+    border-bottom: 1px solid #000;
+}
+
+.demo:hover {
+    border-bottom: 2px solid #000;
+    transition: 0.2s;
+}
+
+.hero {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.banner {
+    scroll-snap-align:start;
+    height: 100vh;
+}
+
+.herobutton1 {
+    background-color: rgba(23, 26, 32, 0.8);
+    backdrop-filter: blur(8px);
+}
+.herobutton2 {
+    background-color:rgba(244, 244, 244, 0.65);
+    backdrop-filter: blur(8px);
+}
+
+.sidemenu {
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+.close {
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+@media  (max-width: 1200px) {
+    .menu {
+        background-color: rgba(23, 26, 32,0.1);
+        backdrop-filter: blur(13px);
+        font-weight: 600;
+    }
+}
+
+@media  (max-width: 480px) {
+    .menu {
+        font-weight: 500;
+    }
+    .ordernow {
+        top:70%
+    }
+}
