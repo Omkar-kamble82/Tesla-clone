@@ -44,9 +44,10 @@ const Video = () => {
 
     return (
         <div className="w-[100vw] h-[100%] transition-all duration-700">
-            <div className=' h-auto'><div className='w-[90vw] h-auto ml-[5vw] mt-[5vw] rounded-2xl bg-center overflow-hidden transition-all bg-cover object-cover duration-500'>
+            <div className=' h-auto'><div className='w-[90vw] mb-10 h-auto ml-[5vw] mt-[5vw] rounded-2xl bg-center overflow-hidden transition-all bg-cover object-cover duration-500'>
                 <video className={`object-fill w-[100%] h-[40vh] transition-all duration-500 overflow-hidden sm:h-[90vh]`} onEnded={() =>nextSlide()} autoPlay muted src={`${slides[currentIndex].url}`} alt="" />
             </div>
+            
             <div className='flex top-8 justify-start py-2 width-[100vw] ml-[5%] lg:ml-[25%]'>
                 {slides.map((slide, slideIndex) => (
                 <div
@@ -54,7 +55,7 @@ const Video = () => {
                     onClick={() => goToSlide(slideIndex)}
                     className='text-3xl cursor-pointer text-white flex text-start justify-start items-start'
                 >
-                    <div className={`${slideIndex === currentIndex ? "bg-white" : "bg-gray-600"} h-[14px] w-[14px] rounded-[50%] bottom-2 m-1 mt-10`}/>
+                    <div className={`${slideIndex === currentIndex ? "bg-white" : "bg-gray-600"} h-[14px] w-[14px] rounded-[50%] bottom-2 m-1`}/>
                 </div>
                 ))}
             </div></div>
