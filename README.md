@@ -1,5 +1,6 @@
 <h1>Tesla ui Clone</h1>
 <p><a href="https://tesla-ui-clone-nine.vercel.app/">Tesla-ui-clone</a> is a frontend project that is a clone of the Tesla website. The project was incredibly interesting, and I picked up a lot of new technological skills doing it.</p>
+<p>If you liked, consider giving the project a star.</p>
 <br/>
 <h2>Technologyies Used</h2>
     <ul>
