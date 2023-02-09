@@ -32,14 +32,14 @@ const Video = () => {
             <div className=' h-auto'><div className='w-[90vw] h-auto ml-[5vw] mt-[5vw] rounded-2xl bg-center overflow-hidden transition-all bg-cover object-cover duration-500'>
                 <img className={`object-fill w-[100%] h-[40vh] transition-all duration-500 overflow-hidden sm:h-[90vh]`} src={`${slides[currentIndex].url}`} alt="" />
             </div>
-            <div className='flex top-8 justify-start py-2 width-[100vw] ml-[5%] lg:ml-[25%]'>
+            <div className='flex top-8 mt-10 justify-start py-2 width-[100vw] ml-[5%] lg:ml-[25%]'>
                 {slides.map((slide, slideIndex) => (
                 <div
                     key={slideIndex}
                     onClick={() => goToSlide(slideIndex)}
                     className='text-3xl cursor-pointer text-black flex text-start justify-start items-start'
                 >
-                    <div className={`${slideIndex === currentIndex ? "bg-black" : "bg-gray-200"} h-[14px] w-[14px] rounded-[50%] bottom-2 m-1 mt-10`}/>
+                    <div className={`${slideIndex === currentIndex ? "bg-black" : "bg-gray-200"} h-[14px] w-[14px] rounded-[50%] bottom-2 m-1`}/>
                 </div>
                 ))}
             </div></div>
