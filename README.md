@@ -1,5 +1,5 @@
 <h1>Tesla ui Clone</h1>
-<p><a href="https://tesla-ui-clone-nine.vercel.app/">Tesla-ui-clone</a> is a frontend project that is a clone of the Tesla website. The project was incredibly interesting, and I picked up a lot of new technological skills and coding patterns doing it.</p>
+<p><a href="https://tesla-ui-clone-nine.vercel.app/">Tesla-ui-clone</a> is a UI clone of the Tesla website using Next.js, Framer Motion, and Tailwind. Leveraged Next.js' server-side rendering capabilities to efficiently display large amounts of images and videos. Implemented Framer Motion for smooth animations and Tailwind for responsive and modern styling. Resulted in a visually appealing and functional frontend project showcasing proficiency in Next.js, Framer Motion, and Tailwind.</p>
 <p>If you liked, consider giving the project a star.</p>
 <br/>
 <h2>Technologyies Used</h2>
